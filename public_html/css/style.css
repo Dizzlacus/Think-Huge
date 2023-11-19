@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #4DE450;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+h3, h4, a {
+  color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+p {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #000;
+  width: 100vw;
+  line-height: 1.4;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+image {
+  width: 100%;
+}
+
+.primary-color {
+  color: #4DE450;
+}
+
+.btn {
+  width: 100%;
+  background-color: #4DE450;
+  color: #000;
+  border-radius: 8px 8px 8px 8px;
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border: solid 1px #4DE450;
+  width: 190px;
+}
+.btn:hover {
+  background-color: rgba(10, 28, 14, 0.9);
+  color: #ffffff;
+  border: solid 1px #4DE450;
+}
+
+nav {
+  min-height: 100px;
+}
+
+.page-hero .hero-image {
+  position: absolute;
+  right: -50px;
+  width: 220px;
+}
+.page-hero .stat-container {
+  background-color: #202020;
+  border-radius: 8px 8px 8px 8px;
+  width: 167px;
+}
+.page-hero .stat-container .tick {
+  object-fit: contain;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #4DE450;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+h3, h4, a {
+  color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+p {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+/* sort-last */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #4DE450;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+h3, h4, a {
+  color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+p {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+@media (min-width: 576px) {
+  .page-hero .hero-image {
+    width: 300px;
+    top: -160px;
+    right: -20px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .page-hero .stat-container {
+    width: 410px;
+    top: -160px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .page-hero .hero-image {
+    position: absolute;
+    right: -30px;
+    width: 390px;
+    top: -230px;
+  }
+  .page-hero .stat-container {
+    width: 520px;
+  }
+}
+@media (min-width: 1200px) {
+  .page-hero .hero-image {
+    position: absolute;
+    right: 160px;
+    width: 420px;
+    top: -290px;
+  }
+  .page-hero .stat-container {
+    width: 520px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

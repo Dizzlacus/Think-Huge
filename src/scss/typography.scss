@@ -1,0 +1,44 @@
+@import "variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+
+$hero-font: 'Poppins', sans-serif;
+$regular-font: $hero-font;
+$quote-font: $hero-font;
+
+h1 {
+    font-family: $hero-font;
+    font-weight: 700;
+    color: $primary-color;
+    text-transform: uppercase;
+    font-size: 30px; 
+}
+
+h2 {
+    font-family: $hero-font;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $secondary-color;
+    font-size: 25px; 
+}
+
+h3, h4, a {
+    color: $secondary-color;
+    text-decoration: none;
+    color: $secondary-color;
+    font-size: 12px;
+}
+
+
+h5 {
+    // font-weight: 600;
+    // text-transform: uppercase;
+    // color: $primary-color;
+}
+
+p {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 12px;
+}

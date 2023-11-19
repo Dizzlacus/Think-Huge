@@ -1,0 +1,76 @@
+@import "variables";
+@import "typography";
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: $body-color;
+    width: 100vw;
+    line-height: 1.4;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+* {
+box-sizing: border-box;
+}
+
+// image styling
+image {
+    width: 100%;
+}
+
+// extra classes 
+.primary-color {
+    color: $primary-color;
+}
+
+// buttons styling
+
+.btn {
+    width: 100%;
+    background-color: $primary-color;
+    color: #000;
+    border-radius: $border-radius;
+    padding: 18px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border: solid 1px $primary-color;
+    width: 190px;
+
+    &:hover {
+        background-color: rgba(10,28,14,.9);
+        color: $secondary-color;
+        border: solid 1px $primary-color;
+    }
+
+}
+
+
+// navigation styling 
+nav {
+    min-height: 100px;
+}
+
+// hero styling 
+.page-hero {
+    .hero-image {
+        position: absolute;
+        right: -50px;
+        width: 220px;
+    }
+
+    .stat-container {
+        background-color: #202020;
+        border-radius: $border-radius;
+        // width: 90%;
+        width: 167px;
+        .tick {
+            object-fit: contain;
+        }
+    }
+
+    
+}
