@@ -46,6 +46,20 @@ image {
         border: solid 1px $primary-color;
     }
 
+    &:active {
+        background-color: rgba(10,28,14,.9)!important;
+        color: $secondary-color;
+        border: solid 1px $primary-color!important;
+    }
+
+    &:focus-visible {
+        background-color: rgba(10,28,14,.9)!important;
+        color: $secondary-color;
+        border: solid 1px $primary-color!important;
+        // box-shadow: $primary-color!important;;
+        box-shadow: 1px 1px 1px $primary-color;
+    }
+
 }
 
 

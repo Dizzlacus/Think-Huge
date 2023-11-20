@@ -68,6 +68,17 @@ image {
   color: #ffffff;
   border: solid 1px #4DE450;
 }
+.btn:active {
+  background-color: rgba(10, 28, 14, 0.9) !important;
+  color: #ffffff;
+  border: solid 1px #4DE450 !important;
+}
+.btn:focus-visible {
+  background-color: rgba(10, 28, 14, 0.9) !important;
+  color: #ffffff;
+  border: solid 1px #4DE450 !important;
+  box-shadow: 1px 1px 1px #4DE450;
+}
 
 nav {
   min-height: 100px;
